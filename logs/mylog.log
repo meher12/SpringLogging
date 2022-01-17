@@ -1,0 +1,42 @@
+2021-11-03 12:32:04.445  INFO 17023 --- [main] g.s.d.DefaultloggingApplication          : Starting DefaultloggingApplication using Java 11.0.11 on dual with PID 17023 (/home/meher/j2eews/devstorynet/DefaultLogging/target/classes started by meher in /home/meher/j2eews/devstorynet/DefaultLogging)
+2021-11-03 12:32:04.446  INFO 17023 --- [main] g.s.d.DefaultloggingApplication          : No active profile set, falling back to default profiles: default
+2021-11-03 12:32:04.784  INFO 17023 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-03 12:32:04.787  INFO 17023 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-03 12:32:04.788  INFO 17023 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-03 12:32:04.808  INFO 17023 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-03 12:32:04.808  INFO 17023 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 334 ms
+2021-11-03 12:32:04.932  INFO 17023 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-03 12:32:04.939  INFO 17023 --- [main] g.s.d.DefaultloggingApplication          : Started DefaultloggingApplication in 0.651 seconds (JVM running for 0.96)
+2021-11-03 12:32:12.823  INFO 17023 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-03 12:32:12.823  INFO 17023 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-03 12:32:12.824  INFO 17023 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-03 12:32:12.830  INFO 17023 --- [http-nio-8080-exec-1] g.s.d.controller.MainController          : This is INFO
+2021-11-03 12:32:12.831  WARN 17023 --- [http-nio-8080-exec-1] g.s.d.controller.MainController          : This is WARN
+2021-11-03 12:32:12.831 ERROR 17023 --- [http-nio-8080-exec-1] g.s.d.controller.MainController          : This is ERROR
+2021-11-03 12:32:29.017  INFO 17023 --- [http-nio-8080-exec-2] g.s.d.controller.MainController          : This is INFO
+2021-11-03 12:32:29.017  WARN 17023 --- [http-nio-8080-exec-2] g.s.d.controller.MainController          : This is WARN
+2021-11-03 12:32:29.018 ERROR 17023 --- [http-nio-8080-exec-2] g.s.d.controller.MainController          : This is ERROR
+2021-11-03 12:32:29.666  INFO 17023 --- [http-nio-8080-exec-3] g.s.d.controller.MainController          : This is INFO
+2021-11-03 12:32:29.667  WARN 17023 --- [http-nio-8080-exec-3] g.s.d.controller.MainController          : This is WARN
+2021-11-03 12:32:29.667 ERROR 17023 --- [http-nio-8080-exec-3] g.s.d.controller.MainController          : This is ERROR
+2021-11-03 12:35:12.300  INFO 17351 --- [main] g.s.d.DefaultloggingApplication          : Starting DefaultloggingApplication using Java 11.0.11 on dual with PID 17351 (/home/meher/j2eews/devstorynet/DefaultLogging/target/classes started by meher in /home/meher/j2eews/devstorynet/DefaultLogging)
+2021-11-03 12:35:12.301  INFO 17351 --- [main] g.s.d.DefaultloggingApplication          : No active profile set, falling back to default profiles: default
+2021-11-03 12:35:12.660  INFO 17351 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-03 12:35:12.664  INFO 17351 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-03 12:35:12.664  INFO 17351 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-03 12:35:12.685  INFO 17351 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-03 12:35:12.685  INFO 17351 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 362 ms
+2021-11-03 12:35:12.824  INFO 17351 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-03 12:35:12.830  INFO 17351 --- [main] g.s.d.DefaultloggingApplication          : Started DefaultloggingApplication in 0.719 seconds (JVM running for 1.081)
+2021-11-03 12:35:22.984  INFO 17351 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-03 12:35:22.984  INFO 17351 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-03 12:35:22.985  INFO 17351 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-03 12:35:22.992  INFO 17351 --- [http-nio-8080-exec-1] g.s.d.controller.MainController          : This is INFO
+2021-11-03 12:35:22.992  WARN 17351 --- [http-nio-8080-exec-1] g.s.d.controller.MainController          : This is WARN
+2021-11-03 12:35:22.993 ERROR 17351 --- [http-nio-8080-exec-1] g.s.d.controller.MainController          : This is ERROR
+2021-11-03 12:35:32.699  INFO 17351 --- [http-nio-8080-exec-2] g.s.d.controller.MainController          : This is INFO
+2021-11-03 12:35:32.699  WARN 17351 --- [http-nio-8080-exec-2] g.s.d.controller.MainController          : This is WARN
+2021-11-03 12:35:32.700 ERROR 17351 --- [http-nio-8080-exec-2] g.s.d.controller.MainController          : This is ERROR
+2021-11-03 12:35:33.301  INFO 17351 --- [http-nio-8080-exec-3] g.s.d.controller.MainController          : This is INFO
+2021-11-03 12:35:33.301  WARN 17351 --- [http-nio-8080-exec-3] g.s.d.controller.MainController          : This is WARN
+2021-11-03 12:35:33.301 ERROR 17351 --- [http-nio-8080-exec-3] g.s.d.controller.MainController          : This is ERROR
